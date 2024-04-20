@@ -1,5 +1,7 @@
 # Execute a command
 exec { 'pkill killmenow':
-       path =>'/usr/bin:/usr/sbin:bin',
+       command  =>'/usr/bin:/usr/sbin:bin',
+       provider => 'shell',
+       returns  => [0,1],
 }
 
