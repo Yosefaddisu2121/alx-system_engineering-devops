@@ -5,4 +5,3 @@ Host web-01
 	User ubuntu
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
-
